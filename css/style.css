@@ -5,9 +5,9 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background-color: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,41 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	font-size: 40px;
+	color: #a1aca9;
+	/* margin: .67em 0 0 0; */
+	padding: 15px 0 5px 0;
+	border-bottom: 1px solid #eee
+}
+
+.largepic img {
+	border: 3px solid #a1aca9;
+}
+
+h3 {
+	color: #a1aca9;
+	font-size: 26px;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+.press-row img {
+	border: 4px solid #cccccc;
+	margin-bottom: 20px;
+}
+
+.press-row img:hover{
+	border: 4px solid rgb(111,127,122);
+}
+
+.copy-r {
+	font-size: 0.8em;
+	color: #555;
+	text-align: right;
+}
